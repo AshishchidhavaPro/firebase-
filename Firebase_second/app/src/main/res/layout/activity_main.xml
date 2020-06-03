@@ -40,14 +40,25 @@
         android:hint="Author"
         />
     <Button
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
         android:onClick="submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"/>
     <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
         android:onClick="Recieve"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Submit"/>
+        android:text="Receive"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/text"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
 
 </LinearLayout>
